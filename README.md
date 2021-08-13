@@ -1,0 +1,2 @@
+# CO2-Alarm-Hardware-System--PIC
+a simple alarm system. The system contains a CO2 sensor connected to RA0 and a speaker (sounder) connected to RC2 as shown in the figure. The sensor will report the CO2 levels. When the CO2 levels are safe the sensor reading will be less than 2V. If the sensor reading is 2V or more the system should sound an alarm. If the sensor reading is 3V or more the alarm should increase in intensity. To generate the alarm you need to send a square wave to the speaker and the sound intensity is controlled by the frequency of the square wave.
